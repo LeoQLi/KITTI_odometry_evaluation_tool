@@ -1,1 +1,1 @@
-# KITTI-odometry-evaluation-tool
+KITTI odometry evaluation tool
