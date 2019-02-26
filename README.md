@@ -14,3 +14,6 @@ The evaluation results will be generated in folder `./data/xx_eval/`.
 ![evaluation example](https://github.com/LearnerLee/KITTI-odometry-evaluation-tool/blob/master/doc/09_error_seg.png)
 ![evaluation example](https://github.com/LearnerLee/KITTI-odometry-evaluation-tool/blob/master/doc/09_path.png)
 ![evaluation example](https://github.com/LearnerLee/KITTI-odometry-evaluation-tool/blob/master/doc/09_rpy.png)
+
+## Reference
+<a href="http://www.cvlibs.net/datasets/kitti/eval_odometry.php" target="_blank">KITTI odometry development kit</a>
