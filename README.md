@@ -4,11 +4,11 @@
 
 To evaluate one or more given trajectories, such as `09_pred.txt` and `10_pred.txt`  in the `data` folder:
 
-        python evaluation.py -result_dir=./data/ -eva_seqs=09_pred.txt,10_pred.txt 
+        python evaluation.py --result_dir=./data/ --eva_seqs=09_pred.txt,10_pred.txt 
 
 To evaluate all trajectories in the `data` folder:
 
-        python evaluation.py -result_dir=./data/ -eva_seqs=* 
+        python evaluation.py --result_dir=./data/ --eva_seqs=* 
 
 The evaluation results will be generated in folder `./data/xx_eval/`. 
 ![evaluation example](https://github.com/LearnerLee/KITTI-odometry-evaluation-tool/blob/master/doc/09_error_seg.png)
