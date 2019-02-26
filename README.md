@@ -2,7 +2,7 @@
 
 ## Usage
 
-Each trajectory file `xx.txt` contains a N x 12 table, where N is the number of frames of the sequence. Row i represents the i'th pose of via a 3x4 transformation matrix.
+Each trajectory file `xx.txt` contains a N x 12 table, where N is the number of frames of the sequence. Row i represents the i'th pose via a 3x4 transformation matrix.
 To evaluate one or more given trajectories, such as `09_pred.txt` and `10_pred.txt`  in the `data` folder:
 
         python evaluation.py --result_dir=./data/ --eva_seqs=09_pred,10_pred 
